@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="smoke"></include>
+<include name="regression"></include>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.createOrganizationIndustry.CreateOrganizationwithIndustryTest"/>
+      <class name="com.CreateContactWithOrganisation.CreateContactWithOrganizationTest"/>
+      <class name="com.createPurchaseOrder.CreatePurchaseOrder2Test"/>
+      <class name="com.createPurchaseOrder.CreatePurchaseOrderTest"/>
+      <class name="com.CampaignWithProduct.CreateCampaignWithProduct"/>
+      <class name="com.Create_Product.CreateProductTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
