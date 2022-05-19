@@ -24,6 +24,7 @@ public class CampaignInformationPage {
 	
 	public String getheaderText() {
 		return headerText.getText();
+		
 	}
 
 
